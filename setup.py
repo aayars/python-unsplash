@@ -14,7 +14,7 @@ setup(
     packages=find_packages(exclude=["tests"]),
     install_requires=[
         "oauthlib==3.1.0",
-        "requests==2.25.0",
+        "requests==2.25.1",
         "requests-oauthlib==1.3.0",
         "six==1.15.0",
     ],
