@@ -13,10 +13,10 @@ setup(
     url="http://github.com/yakupadakli/python-unsplash.git",
     packages=find_packages(exclude=["tests"]),
     install_requires=[
-        "oauthlib==3.1.0",
-        "requests==2.25.1",
-        "requests-oauthlib==1.3.0",
-        "six==1.15.0",
+        "oauthlib>=2.0.1, <4",
+        "requests>=2.20.0, <3",
+        "requests-oauthlib>=0.7.0, <2",
+        "six>=1.10.0, <2",
     ],
     keywords="unsplash library",
     classifiers=[
